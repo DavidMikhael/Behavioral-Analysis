@@ -1,0 +1,3 @@
+Method developed by https://github.com/SwathiSheshadri/pose3d
+The Primary and Secondary folders contain the calibration images that MATLAB uses to calibrate recordings from the 3 cameras (Primary, Secondary1, and Secondary2)
+The CalibSessionFiles folder contain the calibration output .mat file that MATLAB uses to produce the labelled video
