@@ -1,4 +1,4 @@
-Method developed by https://github.com/SwathiSheshadri/pose3d
+Method developed by https://github.com/SwathiSheshadri/pose3d and https://github.com/huangkang314/Behavior-Atlas
 The "CalibrationImages" folder contains the checkerboard images I took for calibration of the 3 cameras
 The Primary and Secondary folders in the "CalibrationImages" contain the calibration images that MATLAB uses to calibrate recordings -
 from the 3 cameras (Primary, Secondary1, and Secondary2)
