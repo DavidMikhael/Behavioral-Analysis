@@ -1,7 +1,9 @@
 Method developed by https://github.com/SwathiSheshadri/pose3d
-The Primary and Secondary folders contain the calibration images that MATLAB uses to calibrate recordings from the 3 cameras (Primary, Secondary1, and Secondary2)
-The CalibSessionFiles folder contain the calibration output .mat file that MATLAB uses to produce the labelled video
-The Data3D.mat file containts the 3D reconstruction of the mouse tracking from the 2D data of DEepLabCut
-The CSVFiles are the DeepLabCut produced tracking data
-The video containts the mouse tracking after 3D reconstruction
-The source code files are edited to fit my data
+The "CalibrationImages" folder contains the checkerboard images I took for calibration of the 3 cameras
+The Primary and Secondary folders in the "CalibrationImages" contain the calibration images that MATLAB uses to calibrate recordings -
+from the 3 cameras (Primary, Secondary1, and Secondary2)
+The CalibSessionFiles folder contain the calibration output .mat file that MATLAB uses to produce the 3D reconstruction video
+The "Experiment_3Ddata" folder has the Data3D.mat file which includes the 3D reconstruction data, and the -
+experiment 3D movie which has an interactive 3D tracking of mouse's movement throughout the experiment
+The CSVFiles are the DeepLabCut-produced tracking data
+The "Exp_config" folder contains the configuration file which I edited according to the specifics of my experiment and file paths
